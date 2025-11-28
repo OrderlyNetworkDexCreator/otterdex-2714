@@ -1,80 +1,81 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Source Sans Pro', sans-serif;
+  --oui-font-size-base: 15px;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
+  --oui-color-primary: 214 90 202;
+  --oui-color-primary-light: 242 178 232;
+  --oui-color-primary-darken: 170 38 155;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 189 107 237;
-  --oui-color-link-light: 217 152 250;
+  --oui-color-link: 206 60 189;
+  --oui-color-link-light: 235 129 224;
 
   --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-tertiary: 245 244 248;
+  --oui-color-quaternary: 232 229 240;
 
-  --oui-color-danger: 245 97 139;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 237 72 122;
+  --oui-color-danger: 231 49 107;
+  --oui-color-danger-light: 248 133 164;
+  --oui-color-danger-darken: 194 0 76;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 0 161 120;
+  --oui-color-success: 22 183 135;
+  --oui-color-success-light: 115 234 195;
+  --oui-color-success-darken: 5 128 92;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning: 255 193 46;
+  --oui-color-warning-light: 255 221 132;
+  --oui-color-warning-darken: 230 130 0;
+  --oui-color-warning-contrast: 45 33 0;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  --oui-color-fill: 255 255 255;
+  --oui-color-fill-active: 250 249 255;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
-  --oui-color-base-6: 43 38 56;
-  --oui-color-base-7: 36 32 47;
-  --oui-color-base-8: 29 26 38;
-  --oui-color-base-9: 22 20 28;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 110 92 127;
+  --oui-color-base-2: 140 115 170;
+  --oui-color-base-3: 166 140 190;
+  --oui-color-base-4: 195 173 215;
+  --oui-color-base-5: 223 205 236;
+  --oui-color-base-6: 234 223 245;
+  --oui-color-base-7: 245 238 252;
+  --oui-color-base-8: 252 248 255;
+  --oui-color-base-9: 255 253 255;
+  --oui-color-base-10: 255 255 255;
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 40 30 50;
+  --oui-color-line: 220 210 230;
 
-  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss: 231 49 107;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 22 183 135;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 40 0 97;
-  --oui-gradient-primary-end: 189 107 237;
+  --oui-gradient-primary-start: 247 215 251;
+  --oui-gradient-primary-end: 214 90 202;
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  --oui-gradient-secondary-start: 235 174 246;
+  --oui-gradient-secondary-end: 170 38 155;
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 41 223 169;
+  --oui-gradient-success-start: 145 236 206;
+  --oui-gradient-success-end: 22 183 135;
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 245 97 139;
+  --oui-gradient-danger-start: 252 174 204;
+  --oui-gradient-danger-end: 231 49 107;
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
-  --oui-gradient-brand-stop-start: 6.62%;
-  --oui-gradient-brand-stop-end: 86.5%;
-  --oui-gradient-brand-angle: 17.44deg;
+  --oui-gradient-brand-start: 253 238 255;
+  --oui-gradient-brand-end: 214 90 202;
+  --oui-gradient-brand-stop-start: 0%;
+  --oui-gradient-brand-stop-end: 100%;
+  --oui-gradient-brand-angle: 15deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 255 234 183;
+  --oui-gradient-warning-end: 255 193 46;
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 255 255 255;
+  --oui-gradient-neutral-end: 245 244 248;
 
   /* rounded */
   --oui-rounded-sm: 2px;
@@ -86,9 +87,14 @@
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 20rem;
-  --oui-spacing-sm: 22.5rem;
-  --oui-spacing-md: 26.25rem;
-  --oui-spacing-lg: 30rem;
-  --oui-spacing-xl: 33.75rem;
+  --oui-spacing-xs: 0.25rem;
+  --oui-spacing-sm: 0.5rem;
+  --oui-spacing-md: 1rem;
+  --oui-spacing-lg: 1.5rem;
+  --oui-spacing-xl: 2rem;
+}
+
+html, body {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 15px !important;
 }
